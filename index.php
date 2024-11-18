@@ -30,6 +30,8 @@
             while ($row = $result->fetch_assoc()) {
                 echo "<tr>";
                 echo "<td>" . htmlspecialchars($row['task']) . "</td>";
+                echo "<td class='action-links'>
+  
                 echo "</tr>";
             }
             ?>

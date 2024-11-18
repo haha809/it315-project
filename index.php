@@ -31,7 +31,9 @@
                 echo "<tr>";
                 echo "<td>" . htmlspecialchars($row['task']) . "</td>";
                 echo "<td class='action-links'>
-  
+                        <a href='edit_task.php?id=" . $row['id'] . "' class='edit-btn'>Edit</a>
+                        
+                      </td>";
                 echo "</tr>";
             }
             ?>
